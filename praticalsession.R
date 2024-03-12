@@ -37,9 +37,9 @@ sum_w
 
 # Remove NA from vector w and store into a new vector v
 v <- w
-v[!is.na(v)] <- w[!is.na(w)]
-v
+v <- w[!is.na(w)]
 
+v
 
 # Check the type of vector v
 typeof_v <- typeof(v)
