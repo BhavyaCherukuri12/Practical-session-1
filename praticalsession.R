@@ -14,7 +14,7 @@ z
 
 
 # Add 2 to each element of x and 50 to each element of y
-x <- x + 2
+x<- x + 2
 y <- y + 50
 x
 y
@@ -37,6 +37,10 @@ sum_w
 
 # Remove NA from vector w and store into a new vector v
 v <- w
+#sum(w,na.rm=TRUE)
+h
+
+
 v <- w[!is.na(w)]
 
 v
@@ -47,3 +51,21 @@ typeof_v
 
 # Check if each element in x is greater than each element in y
 x > y
+x<y
+
+#append function
+
+x1<- append(x,12)
+x1
+
+u<- c(5,6,7,8,9,10)
+u<-append(u,letters[1])
+
+u<-append(u,letters[5:20])
+u
+
+
+
+
+
+
